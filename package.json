@@ -1,0 +1,25 @@
+{
+  "name": "@carlosroberto555/webcomponents",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Build tooling and web components library",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev.js",
+    "start": "node scripts/dev.js"
+  },
+  "bin": {
+    "wc-build": "./scripts/build.js",
+    "wc-dev": "./scripts/dev.js"
+  },
+  "files": [
+    "scripts/",
+    "lib/"
+  ],
+  "devDependencies": {
+    "acorn": "^8.16.0",
+    "acorn-walk": "^8.3.5",
+    "live-server": "^1.2.2",
+    "terser": "^5.39.0"
+  }
+}
