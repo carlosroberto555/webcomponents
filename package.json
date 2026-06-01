@@ -16,7 +16,7 @@
     "scripts/",
     "lib/"
   ],
-  "devDependencies": {
+  "dependencies": {
     "acorn": "^8.16.0",
     "acorn-walk": "^8.3.5",
     "live-server": "^1.2.2",
